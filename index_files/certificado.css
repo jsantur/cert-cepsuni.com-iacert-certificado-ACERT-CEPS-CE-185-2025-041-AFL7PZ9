@@ -1,0 +1,17 @@
+body {
+    zoom: 50%;
+}
+
+#pdf, #mensaje{
+    font-size: 1.5rem;
+}
+
+@media (max-width: 500px) {
+    body {
+        zoom: 24%;
+    }
+    #pdf, #mensaje{
+        font-size: 4rem;
+    }
+  }
+

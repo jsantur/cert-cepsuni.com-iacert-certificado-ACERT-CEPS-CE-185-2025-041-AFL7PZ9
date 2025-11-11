@@ -1,0 +1,79 @@
+/* Font Awesome 7 Custom - Usando archivos OTF locales */
+
+@font-face {
+    font-family: "Font Awesome 7 Free";
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url('./webfonts/Font Awesome 7 Free-Regular-400.otf') format('opentype');
+}
+
+@font-face {
+    font-family: "Font Awesome 7 Free";
+    font-style: normal;
+    font-weight: 900;
+    font-display: block;
+    src: url('./webfonts/Font Awesome 7 Free-Solid-900.otf') format('opentype');
+}
+
+@font-face {
+    font-family: "Font Awesome 7 Brands";
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url('./webfonts/Font Awesome 7 Brands-Regular-400.otf') format('opentype');
+}
+
+.fa, .fab, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+/* Font Awesome 5.15.3 icon map - Estilos básicos */
+.fa-lg { font-size: 1.33333em; line-height: .75em; vertical-align: -.0667em; }
+.fa-xs { font-size: .75em; }
+.fa-sm { font-size: .875em; }
+.fa-1x { font-size: 1em; }
+.fa-2x { font-size: 2em; }
+.fa-3x { font-size: 3em; }
+.fa-4x { font-size: 4em; }
+.fa-5x { font-size: 5em; }
+.fa-6x { font-size: 6em; }
+.fa-7x { font-size: 7em; }
+.fa-8x { font-size: 8em; }
+.fa-9x { font-size: 9em; }
+.fa-10x { font-size: 10em; }
+
+/* Solid icons */
+.fas {
+    font-family: "Font Awesome 7 Free";
+    font-weight: 900;
+}
+
+/* Regular icons */
+.far {
+    font-family: "Font Awesome 7 Free";
+    font-weight: 400;
+}
+
+/* Brand icons */
+.fab {
+    font-family: "Font Awesome 7 Brands";
+    font-weight: 400;
+}
+
+/* Icon mappings from Font Awesome 5.15.3 */
+.fa-download:before { content: "\f019"; }
+.fa-share-alt:before { content: "\f1e0"; }
+.fa-id-card:before { content: "\f2c2"; }
+.fa-clipboard:before { content: "\f328"; }
+.fa-link:before { content: "\f0c1"; }
+.fa-building:before { content: "\f1ad"; }
+.fa-external-link-alt:before { content: "\f35d"; }
+.fa-calendar-alt:before { content: "\f073"; }
+.fa-buffer:before { content: "\f837"; }
